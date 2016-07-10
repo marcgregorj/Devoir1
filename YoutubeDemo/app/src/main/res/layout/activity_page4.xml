@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marcgregor.youtubedemo.Page4Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:src="@drawable/scn_04_sign_in_pw_blank" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:id="@+id/button6"
+        android:layout_x="-4dp"
+        android:layout_y="294dp"
+        android:alpha="0"
+        android:onClick="func_page4" />
+</AbsoluteLayout>
